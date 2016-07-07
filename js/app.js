@@ -69,7 +69,7 @@ function draw() {
     } else if (fttAvg > 30) {
         rectMode(RADIUS);
         fill(200, 135, 255);
-        triangle(width/2, 0+diam*2, 0+diam*2, height-diam*2, width-diam*2, height-diam*2);
+        triangle(width/2, diam*2, diam*2, height-diam*2, width-diam*2, height-diam*2);
     }
 
 
